@@ -1,0 +1,5 @@
+.cap-form-grid, .form-grid{
+    @apply grid gap-4 grid-cols-10 w-full gap-y-6 max-w-2xl  ;
+    grid-auto-rows: minmax(48px, auto);
+  }
+  

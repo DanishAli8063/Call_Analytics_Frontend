@@ -1,0 +1,12 @@
+.UnAuthenticatedRoot {
+  header {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--whiteColor);
+    padding: 36px 5%;
+
+    h1 {
+      width: -webkit-fill-available;
+    }
+  }
+}

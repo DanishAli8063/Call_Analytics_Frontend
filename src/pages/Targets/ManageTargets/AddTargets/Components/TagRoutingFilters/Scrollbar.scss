@@ -1,0 +1,13 @@
+.state-form-tab{
+    ::-webkit-scrollbar {
+        width: 8px;
+        background-color: #E8E8E8;
+      }
+      
+      /* Style for the scrollbar thumb (the draggable part of the scrollbar) */
+      ::-webkit-scrollbar-thumb {
+        background-color: var(--greyColor);
+        border-radius: 4px;
+        height: 33px;
+      }
+}

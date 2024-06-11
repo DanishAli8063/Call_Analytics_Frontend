@@ -1,0 +1,109 @@
+.nav-list {
+  .active{
+    background-color: #e01e26;
+    &:hover{
+      background-color: #e01e26;
+    }
+    .MuiListItemText-root .MuiTypography-root {
+      color: #fff;
+    }
+  }
+  .MuiListItemText-root .MuiTypography-root {
+    font-family: Roboto !important;
+    font-weight: 500;
+    font-size: 8px;
+    line-height: 14px;
+  }
+  .MuiListItemButton-root {
+    padding-top: 8px ;
+    padding-bottom: 8px ;
+  }
+  .MuiCollapse-wrapper .MuiListItemButton-root {
+    padding-top: 2px;
+    padding-bottom: 2px ;
+  }
+
+  .progress-container {
+    background-color: #999999;
+    height: 2px;
+    width: 120px;
+  }
+  .progress-bar {
+    background-color: #e01e26;
+    height: 2px;
+  }
+  .divider {
+    height: 1.5px;
+    width: 100%;
+    background-color: #d9d9d9;
+    margin-top: 42px;
+    margin-bottom: 32px;
+  }
+  .sub-menu{
+    display: flex;
+    align-items: center;
+  }
+
+}
+
+.custom-icon-size {
+  font-size: 6px !important; /* Example size, adjust as needed */
+}
+
+
+/* Responsive Styles */
+@media (min-width: 1038px) {
+  // .MuiListItemText-root .MuiTypography-root {
+  //   font-family: Roboto !important;
+  //   font-weight: 500;
+  //   font-size: 6px !important;
+  //   line-height: 14px;
+  // }
+
+  // .MuiListItemButton-root {
+  //   padding-top: 12px !important;
+  //   padding-bottom: 12px !important;
+  // }
+  // .MuiCollapse-wrapper .MuiListItemButton-root {
+  //   padding-top: 4px !important;
+  //   padding-bottom: 4px !important;
+  // }
+ 
+}
+
+@media (min-width: 1198px) {
+  .MuiListItemText-root .MuiTypography-root {
+    font-family: Roboto !important;
+    font-weight: 500;
+    font-size: 12px !important;
+    line-height: 14px;
+  }
+
+  .MuiListItemButton-root {
+    padding-top: 12px !important;
+    padding-bottom: 12px !important;
+  }
+  .MuiCollapse-wrapper .MuiListItemButton-root {
+    padding-top: 4px !important;
+    padding-bottom: 4px !important;
+  }
+}
+
+
+@media (min-width: 1548px) {
+  .MuiListItemText-root .MuiTypography-root {
+    font-family: Roboto !important;
+    font-weight: 500;
+    font-size: 18px !important;
+    line-height: 14px;
+  }
+
+  .MuiListItemButton-root {
+    padding-top: 16px !important;
+    padding-bottom: 16px !important;
+  }
+  .MuiCollapse-wrapper .MuiListItemButton-root {
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+  }
+}

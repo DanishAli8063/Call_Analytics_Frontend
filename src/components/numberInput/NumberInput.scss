@@ -1,0 +1,19 @@
+.number-input {
+  display: flex;
+  .no-spinners {
+    input {
+      &::-webkit-inner-spin-button {
+        display: none;
+      }
+    }
+  }
+  .icons{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .icon-button{
+    width: 8px;
+    padding: 0px;
+  }
+}

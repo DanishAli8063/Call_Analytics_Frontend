@@ -1,0 +1,60 @@
+.file-heading{
+    font-size: 24pt;
+    padding-bottom: 1%;
+}
+.form-container{
+    margin-bottom: 1%;
+    border-radius: 5px;
+    // border: 1px solid black;
+    background-color: #ededed68;
+    padding: 2%;
+    padding-left: 3%;
+}
+
+.background{
+    // background-color: aqua;
+padding-top: 7px;
+}
+.custom-file-upload {
+    padding: 8.5px 16px;
+    cursor: pointer;
+    // background-color: #E01E26; /* for example, green */
+    color: #E01E26;
+    border: 1px solid #E01E26;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    width: 50%;
+    font-weight: 400;
+    // text-align: center;
+}
+
+.custom-file-upload:hover {
+    background-color:#dc161d; /* a different shade of green */
+    color: #fff;
+}
+
+.heading_log{
+    font-size: 34pt;
+}
+
+// .input-f{
+//     background-color: aqua;
+//     width: 100%;
+// }
+.f{
+    // align-items: center;
+    // text-align: center;
+}
+.p{
+    color: #dc161d;
+    font-size: 12pt;
+    width: 50%;
+    overflow: hidden;
+    // background-color: aqua;
+    height: 22px;
+}

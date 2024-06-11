@@ -1,0 +1,30 @@
+.tab {
+  display: flex;
+  flex-direction: row;
+  column-gap: 0px;
+
+  input[type="checkbox"] {
+    display: none;
+
+    & + label {
+      font-family: "Roboto";
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 120%; /* 19.2px */
+      padding: 10px 20px;
+      cursor: pointer;
+      background-color: transparent;
+      border: 1px solid var(--redColor);
+      color: var(--redColor);
+      width: 146px;
+      display: flex;
+      justify-content: center;
+    }
+
+    &:checked + label {
+      background-color: var(--redColor);
+      color: white;
+    }
+  }
+}
