@@ -1,0 +1,40 @@
+      {state && (
+        <span
+          className="dropdown-ft dropbox"
+          style={{
+            padding: "10px",
+            fontSize: "14px",
+            borderRadius: "5px",
+            border: "none",
+            boxShadow: "0 2px 5px rgba(0, 0, 0, 0.15)",
+            width: "9%",
+          }}
+        >
+          <select onChange={handleOnChangeSelect}>
+            {" "}
+            {/* Use the event value directly */}
+            {Object.entries(state.data).map((item, key) => {
+              return (
+                <>
+                  <option>{item[1]}</option>
+                </>
+              );
+            })}
+          </select>
+
+          
+        </span>
+
+
+        const handleSubmit = (event) => {
+          event.preventDefault();
+          let files = event.target.files;
+          let formData = new FormData();
+          for (let i = 0; i < files.length; i++) {
+            formData.append("files", files[i], files[i].name);
+          }
+        };
+
+        onSubmit={handleSubmit}
+
+        sendFiles(formData);
