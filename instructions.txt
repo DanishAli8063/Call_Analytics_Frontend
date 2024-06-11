@@ -1,0 +1,3 @@
+1) Firstly give command "npm install"
+2) Then give command of "npm install @mui/material @emotion/react @emotion/styled @mui/icons-material"
+3) Then give command of "npm start"
